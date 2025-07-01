@@ -20,7 +20,7 @@ const findMe = () => {
   };
 
   const error = () => {
-    console.error("Unable to retrieve location.");
+    console.error("Can not retrieve location.");
   };
 
   navigator.geolocation.getCurrentPosition(success, error);
