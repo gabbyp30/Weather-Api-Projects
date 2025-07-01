@@ -1,0 +1,36 @@
+body {
+  font-family: "Prociono", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #e0f7fa;
+  background: #020024;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 6%, rgba(9, 9, 121, 1) 49%, rgba(0, 212, 255, 1) 82%);
+}
+
+.card {
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(27, 27, 27, 0.1);
+  background: linear-gradient(to bottom right, #e0dee9, #b2e7ee);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 80px;
+  margin: 0 auto;
+  display: block;
+}
+
+.card h5 {
+  font-weight: bold;
+}
+
+.card p {
+  margin: 0.25rem 0;
+  text-align: center;
+}
